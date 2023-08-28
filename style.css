@@ -210,3 +210,43 @@ a:hover {
     width: 24.7%;
     }
 }
+
+@media (max-width: 375px) {
+
+    h1 {
+        font-size: 40px;
+        margin-top: -70px;
+        width: 80%;
+        
+    }
+    .subtitle {
+        font-size: 13px;
+        padding-left: 0;
+        max-width: 90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.514);
+    }
+
+    .carrossel .fotos .imagens{
+    width: 24.6%;
+    }
+
+    .carrossel {
+        width: 90%;
+    }
+
+    .text {
+        text-align: start;
+        font-size: 18px;
+        width: 90%;
+        padding: 9px 0;
+    }
+
+    #container2 .titulo {
+        font-size: 40px;
+    }
+
+    .imagens2 {
+        width: 95%;
+        margin-top: -50px;
+    }
+}
