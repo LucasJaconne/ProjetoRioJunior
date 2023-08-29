@@ -280,7 +280,7 @@ a:hover {
     }
 
     .carrossel .fotos .imagens{
-    width: 24.74%;
+    width: 24.73%;
     }
 
     .carrossel {
@@ -335,4 +335,13 @@ a:hover {
         padding-bottom: 50px;
         margin: 0;
     }
+}
+
+@media (max-width: 270px) {
+    .carrossel .fotos .imagens{
+        width: 24.64%;
+        }
+        #carrossel2 {
+            margin-top: -12px;
+        }
 }
